@@ -33,6 +33,34 @@ body{
     padding-top: 85px;
 }
 
+/* skills */
+#skills .skills-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#skills .skills-item{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.25);
+    transition: 0.5s ease box-shadow;
+}
+
+#skills .skills-item:hover{
+    box-shadow: 0px 0px 20px 0 rgba(0, 0, 0, 0.25);
+}
+/* end skills */
+
 /* project work */
 #project .project{
     max-width: 500px;
@@ -72,21 +100,11 @@ body{
 /* end project work */
 
 /* contact */
-#contact .contact{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 #contact .contact-items{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}
-
-.email{
-    text-decoration: none;
-    color: black;
 }
 
 #contact .contact-item{
@@ -106,6 +124,11 @@ body{
 
 #contact .contact-item:hover{
     box-shadow: 0px 0px 20px 0 rgba(0, 0, 0, 0.25);
+}
+
+.email{
+    text-decoration: none;
+    color: black;
 }
 
 #contact .contact-icon{
